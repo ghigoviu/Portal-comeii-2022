@@ -1,0 +1,23 @@
+$('.edica-header .dropdown').hover(function() {
+  $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+}, function() {
+  $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+});
+
+$(document).ready(function(){
+
+	$('.ir-arriba').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 300);
+	});
+
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){
+			$('.ir-arriba').slideDown(300);
+		} else {
+			$('.ir-arriba').slideUp(300);
+		}
+	});
+
+});
