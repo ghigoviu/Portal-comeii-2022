@@ -7510,16 +7510,16 @@ a.text-dark:hover, a.text-dark:focus {
       .edica-landing-section.edica-landing-services .landing-service-card .img-confe{
         margin-left: 20px;
         margin-right: 20px;
-        width: 500px  }
-        @media(max-width: 500px){
+        max-width: 500px  }
+        @media(max-width: 600px){
         .edica-landing-section.edica-landing-services .landing-service-card .img-confe{
           margin-left: 20px;
-          margin-right: 20px; } }
-        @media(min-width: 575px){
+          margin-right: 20px; 
+          max-width: 350px;} }
+        @media(min-width: 600px){
         .edica-landing-section.edica-landing-services .landing-service-card .img-confe:hover{
           animation-duration: 5ms;
-          transform: scale(1.25); 
-        }}
+          transform: scale(1.25); } }
 
     .edica-landing-section.edica-landing-services .landing-service-card .service-card-img {
       margin-bottom: 40px;

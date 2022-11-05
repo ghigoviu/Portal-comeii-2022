@@ -15,6 +15,8 @@
     <script src="assets/vendors/jquery/jquery.min.js"></script>
     <script src="assets/js/loader.js"></script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="papaparse.min.js"></script>
 </head>
 <body>  
     <div class="edica-loader"></div>
@@ -146,23 +148,6 @@
                     <!--
                     <div class="col-md-6 landing-service-card" data-aos="fade-right">
                         <div class="img-centrada">
-                            <img src="assets/images/m_confe1.png" alt="card img" class="img-fluid service-card-img">
-                        </div>
-                        <h4 class="service-card-titleconfe">Hacia un manejo sustentable del riego en México</h4>
-                        <p class="service-card-description"><b> Dr. Enrique Palacios Vélez </b></p>
-                        <p class="service-card-description">Profesor-Investigador del COLPOS
-                        <br>Colegio de Posgraduados</p>
-                    </div>
-                    <div class="col-md-6 landing-service-card" data-aos="fade-left">
-                        <div class="img-centrada">
-                            <img src="assets/images/m_confe2.png" alt="card img" class="img-fluid service-card-img">
-                        </div>
-                        <h4 class="service-card-titleconfe">El agua en tiempos de escasez: eficiencia e indicadores. Lecciones desde el sector agua potable y saneamiento</h4>
-                        <p class="service-card-description"><b>Mtro. Ricardo Sandoval Minero</b></p>
-                        <p class="service-card-description">Consultor Independiente</p>
-                    </div>
-                    <div class="col-md-6 landing-service-card" data-aos="fade-right">
-                        <div class="img-centrada">
                             <img src="assets/images/m_confe3.jpg" alt="card img" class="img-fluid service-card-img">
                         </div>
                         <h4 class="service-card-titleconfe">Aplicaciones informáticas para el diagnóstico y pronóstico de la resiliencia agrícola a eventos hidrometeorológicos y climáticos extremos</h4>
@@ -170,17 +155,6 @@
                         <p class="service-card-description">Profesor Asociado
                         <br>College of Engineering
                         <br>University of Nebraska at Lincoln</p>
-                    </div>
-                    <div class="col-md-6 landing-service-card" data-aos="fade-right">
-                        <div class="img-centrada">
-                            <img src="assets/images/m_confe4.jpg" alt="card img" class="img-fluid service-card-img">
-                        </div>
-                        <h4 class="service-card-titleconfe">La crisis de la gobernabilidad en la gestión de del agua en México:
-                            El caso de la Cuenca de del Río Bravo.
-                        </h4>
-                        <p class="service-card-description"><b>Dr. Ismael Aguilar Benítez</b></p>
-                        <p class="service-card-description"> Investigador del Departamento de de Estudios Urbanos y del Medio Ambiente
-                        <br>Colegio Frontera del Norte </p>
                     </div>
                     -->
                     <div class="landing-service-card">
@@ -193,73 +167,61 @@
                                     (max-width: 990px) 900px,
                                     1000px"
                             src="assets\images\Poster_ConferencistasMagistralesCOMEII2022-1-1667w.jpg" alt="">
-                        -->
-                           
+                        -->  
                            
                         <picture>
-                            <source srcset="assets\images\Magistral_resp_001-500w.png" media="(max-width: 600px)">
+                            <source srcset="assets/images/Magistral_resp_1_500w.png" media="(max-width: 600px)">
                             <source srcset="assets\images\Magistral_resp_001-1000w.png" media="(max-width: 1000px)">
                             <img class="img-confe" data-aos="fade-right" data-aos-delay="250"
                                 src="assets\images\Poster_ConferencistasMagistralesCOMEII2022-1-1667w.jpg" alt="No es responsiva aún...">
                         </picture>
                     </div>
                     <div class="landing-service-card">
-                        <img class="img-confe" data-aos="fade-right" data-aos-delay="250" 
-                            src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 0.jpg" alt="Poster 7">
+                        <picture>
+                            <source srcset="assets/images/Magistral_resp_2_500w.png" media="(max-width: 600px)">
+                            <img class="img-confe" data-aos="fade-right" data-aos-delay="250" 
+                                src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 0.jpg" alt="Poster 7">
+                        </picture>
                     </div>
                     <div class="landing-service-card">
-                        <img class="img-confe" data-aos="fade-right" data-aos-delay="250" 
-                            src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 2.jpg" alt="Poster 1">
+                        <picture>
+                            <source srcset="assets/images/Magistral_resp_3_500w.png" media="(max-width: 600px)">
+                            <img class="img-confe" data-aos="fade-right" data-aos-delay="250" 
+                                src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 2.jpg" alt="Poster 1">
+                        </picture>
                     </div>
                     <div class="landing-service-card">
-                        <img class="img-confe" data-aos="fade-left" data-aos-delay="300" 
-                            src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 3.jpg" alt="Poster 2">
+                        <picture>
+                            <source srcset="assets/images/Magistral_resp_4_500w.png" media="(max-width: 600px)">
+                            <img class="img-confe" data-aos="fade-left" data-aos-delay="300" 
+                                src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 3.jpg" alt="Poster 2">
+                        </picture>
                     </div>
                     <div class="landing-service-card">
-                        <img class="img-confe" data-aos="fade-right" data-aos-delay="250" 
-                            src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 4.jpg" alt="Poster 3">
+                        <picture>
+                            <source srcset="assets/images/Magistral_resp_5_500w.png" media="(max-width: 600px)">
+                            <img class="img-confe" data-aos="fade-right" data-aos-delay="250" 
+                                src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 4.jpg" alt="Poster 3">
+                        </picture>
                     </div>
-                    <!--
+                    
                     <div class="landing-service-card">
-                        <img class="img-confe" src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 5.jpg" alt="Poster 4">
-                    </div>
-                    -->
-                    <div class="landing-service-card">
-                        <img class="img-confe" data-aos="fade-left" data-aos-delay="300"
-                            src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 6.jpg" alt="Poster 5">
-                    </div>
-                    <div class="landing-service-card">
-                        <img class="img-confe" data-aos="fade-right" data-aos-delay="250" 
-                            src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 8.jpg" alt="Poster 5">
-                    </div>
-                    <!--
-                    <div class="landing-service-card">
-                        <img class="img-confe" src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 7.jpg" alt="Poster 6">
-                    </div>
-                    -->
+                        <picture>
+                            <source srcset="assets/images/Magistral_resp_6_500w.png" media="(max-width: 600px)">
+                            <img class="img-confe" data-aos="fade-left" data-aos-delay="300"
+                                src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 6.jpg" alt="Poster 5">
+                        </picture>
 
-                    <!--    
-                    <div class="col-md-6 landing-service-card" data-aos="fade-right">
-                        <div class="img-centrada">
-                            <img src="assets/images/m_confe4.jpg" alt="card img" class="img-fluid service-card-img">
-                        </div>
-                        <h4 class="service-card-titleconfe">La agricultura y el riego de precisión: presente y futuro
-                        </h4>
-                        <p class="service-card-description"><b>Dr. Manuel Alejandro Andrade Rodríguez</b></p>
-                        <p class="service-card-description"> Profesor de Manejo del Agua y Riego
-                        <br>Universidad de Nevada-Reno EEUU </p>
                     </div>
-                    <div class="col-md-6 landing-service-card" data-aos="fade-right">
-                        <div class="img-centrada">
-                            <img src="assets/images/m_confe4.jpg" alt="card img" class="img-fluid service-card-img">
-                        </div>
-                        <h4 class="service-card-titleconfe"> La medición y modelacioń de la evapotranspiración de cultivos perennes:
-                            retos y perspectivas</h4>
-                        <p class="service-card-description"><b>Dr. Manuel Alejandro Andrade Rodríguez</b></p>
-                        <p class="service-card-description"> Profesor de Manejo del Agua y Riego
-                        <br>Universidad de Nevada-Reino EEUU </p>
+                    <div class="landing-service-card">
+                        <picture>
+                            <source srcset="assets/images/Magistral_resp_7_500w.png" media="(max-width: 600px)">
+                            <img class="img-confe" data-aos="fade-right" data-aos-delay="250" 
+                                src="assets/images/Poster Conferencistas Magistrales COMEII 2022 - 8.jpg" alt="Poster 5">
+                        </picture>
                     </div>
-                    -->
+                    
+
                 </div>
                 <h4 class="edica-landing-section-title" data-aos="fade-up">Ponentes invitados</h4>
                 <div class="row">
@@ -479,12 +441,150 @@
 
         <section class="edica-landing-section edica-landing-services" id="ponencias-extenso">
             <div class="container">
-                <h4 class="edica-landing-section-title" >Sesión estudiantil</h4>
+                <h4 class="edica-landing-section-title" >Lista de ponencias aceptadas en extenso COMEII 2022</h4>
                 <!-- Lista de ponencias en extenso de excel pagina 1-->
-                
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>CODIGO</th> <th>TITULO DE LA PONENCIA</th> <th>AUTOR PRINCIPAL</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>22001</td>
+                                <td>MONITOREO DE LA FENOLOGÍA DE MAIZ CON IMÁGENES DE SATÉLITE PARA MEJORAS DEL SERVICIO DE RIEGO EN ZONAS AGRÍCOLAS</td>
+                                <td>Ernesto Sifuentes Ibarra</td>
+                            </tr>
+                            <tr>
+                                <td>22002</td>
+                                <td>AJUSTE DE LOS REQUERIMIENTOS HÍDRICOS DE DOS GENOTIPOS DE MAÍZ, APOYADO CON DRONES</td>
+                                <td>José Simón Nieblas González</td>
+                            </tr>
+                            <tr>
+                                <td>22003</td>
+                                <td>MANEJO AGRONÓMICO DE SEQUÍAS EN DISTRITOS DE RIEGO (Aplicación al DR-075, Río Fuerte, Sinaloa).</td>
+                                <td>Jaime Macías Cervantes</td>
+                            </tr>
+                            <tr>
+                                <td>22004</td>
+                                <td>METODOLOGÍA PARA EVALUAR IMPACTOS AMBIENTALES EN SISTEMAS DE RIEGO Y DRENAJE. ESTUDIO DE CASO, SISTEMA DE RIEGO Y DRENAJE DEL VALLE DE CAÑETE. LIMA – PERÚ</td>
+                                <td>Guillermo Lorenzo Vílchez Ochoa</td>
+                            </tr>
+                            <tr>
+                                <td>22005</td>
+                                <td>VISUALIZADOR RAPIDO DE INFORMACION CLIMÁTICA (VIRIC)</td>
+                                <td>Ignacio Sánchez Cohen</td>
+                            </tr>
+                            <tr>
+                                <td>22006</td>
+                                <td>YOUTUBE EN LA ENSEÑANZA DEL CONSUMO DE AGUA DE LAS PLANTAS</td>
+                                <td>Graciano Javier Aguado Rodríguez</td>
+                            </tr>
+                            <tr>
+                                <td>22007</td>
+                                <td>INFLUENCIA DEL EXTRUIDO DE NEUMÁTICOS EN LA REMOCIÓN DE COLORANTE ROJO CONGO DEL AGUA</td>
+                                <td>Juan Nápoles Armenta</td>
+                            </tr>
+                            <tr>
+                                <td>22008</td>
+                                <td>MONITOREO DE EFICIENCIA DE TRATAMIENTO DE AGUAS RESIDUALES EN LA PTAR-UAAAN</td>
+                                <td>Felipe Hernández Hernández</td>
+                            </tr>
+                            <tr>
+                                <td>22009</td>
+                                <td>CONTRASTE EXPERIMENTAL DE MODELOS EMPÍRICOS DE EVAPOTRANSPIRACIÓN DEPENDIENTES DE LA TEMPERATURA Y RADIACIÓN SOLAR. RESULTADOS PRELIMINARES</td>
+                                <td>Javier Ezcequiel Colimba-Limaico</td>
+                            </tr>
+                            <tr>
+                                <td>22010</td>
+                                <td>SOBRE LA INFILTRACIÓN FRACCIONARIA</td>
+                                <td>Carlos Fuentes</td>
+                            </tr>
+                            <tr>
+                                <td>22011</td>
+                                <td>VARIACIÓN ESPACIAL DE LA ETo PARA EL MUNICIPIO DE MARTÍNEZ DE LA TORRE, VERACRUZ, ESTIMADA MEDIANTE CINCO MÉTODOS EMPÍRICOS</td>
+                                <td>Augusto Omar Villa Camacho</td>
+                            </tr>
+                            <tr>
+                                <td>22012</td>
+                                <td>CÁLCULO DE LOS REQUERIMIENTOS DE RIEGO EN EL CULTIVO DE MAÍZ APLICANDO EL CONCEPTO DE GRADOS DÍAS DESARROLLO</td>
+                                <td>Rodrigo Rodríguez Gonzalez</td>
+                            </tr>
+                            <tr>
+                                <td>22013</td>
+                                <td>COMPORTAMIENTO DEL CULTIVO DE VAINILLA EN ESTRÉS HÍDRICO</td>
+                                <td>Delfino Reyes López</td>
+                            </tr>
+                            <tr>
+                                <td>22014</td>
+                                <td>NUMERICAL MODELING OF HYDRODYNAMIC IRRIGATION CHANNELS WITH PRESENCE OF SKEWED BOX-CULVERT</td>
+                                <td>Israel Enrique Herrera Díaz</td>
+                            </tr>
+                            <tr>
+                                <td>22015</td>
+                                <td>ESTIMACIÓN DEL AGUA REPRESADA MEDIANTE EL USO DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA</td>
+                                <td>Gerardo Ruíz Sevilla</td>
+                            </tr>
+                            <tr>
+                                <td>22016</td>
+                                <td>CÁLCULO DE RED ENTUBADA EN EL MÓDULO TETAMECHE, D.R. 063 GUASAVE, SINALOA</td>
+                                <td>Jorge A. Castillo González</td>
+                            </tr>
+                            <tr>
+                                <td>22017</td>
+                                <td>COMPLEMENTO DE EXCEL PARA EL DISEÑO DE RIEGO POR ASPERSIÓN PORTÁTIL</td>
+                                <td>Fabiel Vazquez Cruz</td>
+                            </tr>
+                            <tr>
+                                <td>22018</td>
+                                <td>MODELACIÓN DE LA FASE DE AVANCE EN RIEGO POR MELGAS CON PRESENCIA DE UN MANTO FREÁTICO SOMERO</td>
+                                <td>Sebastián Fuentes</td>
+                            </tr>
+                            <tr>
+                                <td>22019</td>
+                                <td>LOS JAGÜEYES Y SU TRASCENDENCIA EN CUATRO COMUNIDADES DEL ESTADO DE PUEBLA</td>
+                                <td>Daniela Vázquez Fuentes Aguilar</td>
+                            </tr>
+                            <tr>
+                                <td>22020</td>
+                                <td>ANÁLISIS DE DISPONIBILIDAD HÍDRICA EN LA REGIÓN HIDROLÓGICA GRIJALVA-USUMACINTA Y SU PROSPECTIVA AL 2034</td>
+                                <td>Elmer Natanael Sánchez Cortés</td>
+                            </tr>
+                            <tr>
+                                <td>22021</td>
+                                <td>ANÁLISIS DE ARQUITECTURAS DE REDES NEURONALES CONVOLUCIONALES APLICADAS A LA DETECCIÓN DE CENICILLA POLVORIENTA EN CULTIVOS DE JITOMATE</td>
+                                <td>Juan Paulo Sánchez Hernández</td>
+                            </tr>
+                            <tr>
+                                <td>22022</td>
+                                <td>COMPARACIÓN DE CINCO MÉTODOS DE CÁLCULO DE GRADOS-DÍA DE DESARROLLO PARA EL CULTIVO DE LIMA PERSA EN MARTÍNEZ DE LA TORRE, VERACRUZ</td>
+                                <td>Enrique Mejía Campos</td>
+                            </tr>
+                            <tr>
+                                <td>22023</td>
+                                <td>LA IMPORTANCIA DE LA INGENIERÍA DE RIEGO Y DRENAJE EN EL USO SUSTENTABLE DEL AGUA EN LOS DISTRITOS DE RIEGO</td>
+                                <td>Marco Antonio González Vázquez</td>
+                            </tr>
+                            <tr>
+                                <td>22024</td>
+                                <td>MONITOREO DEL ESTADO HÍDRICO DEL SUELO Y AMBIENTAL PARA EL CULTIVO DE JITOMATE EN INVERNADERO</td>
+                                <td>Andrea García Monroy</td>
+                            </tr>
+                            <tr>
+                                <td>22025</td>
+                                <td>PRODUCTIVIDAD DEL AGUA EN CHILE 'JALAPEÑO' (Capsicum annuum) BAJO INVERNADERO EN CUATRO SUSTRATOS</td>
+                                <td>Guillermo Jesuita Pérez Marroquín</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>&nbsp</td>
+                                <td>&nbsp</td>
+                            </tr>
+                        </tbody>
+                </table>
             </div>
-
         </section>
+
         <section class="edica-landing-section edica-landing-services" id="sesion-estudiantil">
             <div class="container">
                 <h4 class="edica-landing-section-title" >Sesión estudiantil</h4>
@@ -495,11 +595,150 @@
                         <div class="landing-service-card">
                             <img src="assets/images/Poster_Estudiantil_1.jpg" alt="Sesion estudiantil 1" class="img-confe" data-aos="flip-right" data-aos-delay="250" >
                         </div>
-                        <!-- Lista de ponentes de estudiantes de excel pagina 2-->
                     </div>
+                <h4 class="edica-landing-section-title" >Lista de ponencias de estudiantes</h4>
+                <!-- Lista de ponentes de estudiantes de excel pagina 2-->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Código COMEII</th> <th>Título de la ponencia</th> <th>Autor principal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>22001</td>
+                            <td>MONITOREO DE LA FENOLOGÍA DE MAIZ CON IMÁGENES DE SATÉLITE PARA MEJORAS DEL SERVICIO DE RIEGO EN ZONAS AGRÍCOLAS</td>
+                            <td>Ernesto Sifuentes Ibarra</td>
+                        </tr>
+                        <tr>
+                            <td>22002</td>
+                            <td>AJUSTE DE LOS REQUERIMIENTOS HÍDRICOS DE DOS GENOTIPOS DE MAÍZ, APOYADO CON DRONES</td>
+                            <td>José Simón Nieblas González</td>
+                        </tr>
+                        <tr>
+                            <td>22003</td>
+                            <td>MANEJO AGRONÓMICO DE SEQUÍAS EN DISTRITOS DE RIEGO (Aplicación al DR-075, Río Fuerte, Sinaloa).</td>
+                            <td>Jaime Macías Cervantes</td>
+                        </tr>
+                        <tr>
+                            <td>22004</td>
+                            <td>METODOLOGÍA PARA EVALUAR IMPACTOS AMBIENTALES EN SISTEMAS DE RIEGO Y DRENAJE. ESTUDIO DE CASO, SISTEMA DE RIEGO Y DRENAJE DEL VALLE DE CAÑETE. LIMA – PERÚ</td>
+                            <td>Guillermo Lorenzo Vílchez Ochoa</td>
+                        </tr>
+                        <tr>
+                            <td>22005</td>
+                            <td>VISUALIZADOR RAPIDO DE INFORMACION CLIMÁTICA (VIRIC)</td>
+                            <td>Ignacio Sánchez Cohen</td>
+                        </tr>
+                        <tr>
+                            <td>22006</td>
+                            <td>YOUTUBE EN LA ENSEÑANZA DEL CONSUMO DE AGUA DE LAS PLANTAS</td>
+                            <td>Graciano Javier Aguado Rodríguez</td>
+                        </tr>
+                        <tr>
+                            <td>22007</td>
+                            <td>INFLUENCIA DEL EXTRUIDO DE NEUMÁTICOS EN LA REMOCIÓN DE COLORANTE ROJO CONGO DEL AGUA</td>
+                            <td>Juan Nápoles Armenta</td>
+                        </tr>
+                        <tr>
+                            <td>22008</td>
+                            <td>MONITOREO DE EFICIENCIA DE TRATAMIENTO DE AGUAS RESIDUALES EN LA PTAR-UAAAN</td>
+                            <td>Felipe Hernández Hernández</td>
+                        </tr>
+                        <tr>
+                            <td>22009</td>
+                            <td>CONTRASTE EXPERIMENTAL DE MODELOS EMPÍRICOS DE EVAPOTRANSPIRACIÓN DEPENDIENTES DE LA TEMPERATURA Y RADIACIÓN SOLAR. RESULTADOS PRELIMINARES</td>
+                            <td>Javier Ezcequiel Colimba-Limaico</td>
+                        </tr>
+                        <tr>
+                            <td>22010</td>
+                            <td>SOBRE LA INFILTRACIÓN FRACCIONARIA</td>
+                            <td>Carlos Fuentes</td>
+                        </tr>
+                        <tr>
+                            <td>22011</td>
+                            <td>VARIACIÓN ESPACIAL DE LA ETo PARA EL MUNICIPIO DE MARTÍNEZ DE LA TORRE, VERACRUZ, ESTIMADA MEDIANTE CINCO MÉTODOS EMPÍRICOS</td>
+                            <td>Augusto Omar Villa Camacho</td>
+                        </tr>
+                        <tr>
+                            <td>22012</td>
+                            <td>CÁLCULO DE LOS REQUERIMIENTOS DE RIEGO EN EL CULTIVO DE MAÍZ APLICANDO EL CONCEPTO DE GRADOS DÍAS DESARROLLO</td>
+                            <td>Rodrigo Rodríguez Gonzalez</td>
+                        </tr>
+                        <tr>
+                            <td>22013</td>
+                            <td>COMPORTAMIENTO DEL CULTIVO DE VAINILLA EN ESTRÉS HÍDRICO</td>
+                            <td>Delfino Reyes López</td>
+                        </tr>
+                        <tr>
+                            <td>22014</td>
+                            <td>NUMERICAL MODELING OF HYDRODYNAMIC IRRIGATION CHANNELS WITH PRESENCE OF SKEWED BOX-CULVERT</td>
+                            <td>Israel Enrique Herrera Díaz</td>
+                        </tr>
+                        <tr>
+                            <td>22015</td>
+                            <td>ESTIMACIÓN DEL AGUA REPRESADA MEDIANTE EL USO DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA</td>
+                            <td>Gerardo Ruíz Sevilla</td>
+                        </tr>
+                        <tr>
+                            <td>22016</td>
+                            <td>CÁLCULO DE RED ENTUBADA EN EL MÓDULO TETAMECHE, D.R. 063 GUASAVE, SINALOA</td>
+                            <td>Jorge A. Castillo González</td>
+                        </tr>
+                        <tr>
+                            <td>22017</td>
+                            <td>COMPLEMENTO DE EXCEL PARA EL DISEÑO DE RIEGO POR ASPERSIÓN PORTÁTIL</td>
+                            <td>Fabiel Vazquez Cruz</td>
+                        </tr>
+                        <tr>
+                            <td>22018</td>
+                            <td>MODELACIÓN DE LA FASE DE AVANCE EN RIEGO POR MELGAS CON PRESENCIA DE UN MANTO FREÁTICO SOMERO</td>
+                            <td>Sebastián Fuentes</td>
+                        </tr>
+                        <tr>
+                            <td>22019</td>
+                            <td>LOS JAGÜEYES Y SU TRASCENDENCIA EN CUATRO COMUNIDADES DEL ESTADO DE PUEBLA</td>
+                            <td>Daniela Vázquez Fuentes Aguilar</td>
+                        </tr>
+                        <tr>
+                            <td>22020</td>
+                            <td>ANÁLISIS DE DISPONIBILIDAD HÍDRICA EN LA REGIÓN HIDROLÓGICA GRIJALVA-USUMACINTA Y SU PROSPECTIVA AL 2034</td>
+                            <td>Elmer Natanael Sánchez Cortés</td>
+                        </tr>
+                        <tr>
+                            <td>22021</td>
+                            <td>ANÁLISIS DE ARQUITECTURAS DE REDES NEURONALES CONVOLUCIONALES APLICADAS A LA DETECCIÓN DE CENICILLA POLVORIENTA EN CULTIVOS DE JITOMATE</td>
+                            <td>Juan Paulo Sánchez Hernández</td>
+                        </tr>
+                        <tr>
+                            <td>22022</td>
+                            <td>COMPARACIÓN DE CINCO MÉTODOS DE CÁLCULO DE GRADOS-DÍA DE DESARROLLO PARA EL CULTIVO DE LIMA PERSA EN MARTÍNEZ DE LA TORRE, VERACRUZ</td>
+                            <td>Enrique Mejía Campos</td>
+                        </tr>
+                        <tr>
+                            <td>22023</td>
+                            <td>LA IMPORTANCIA DE LA INGENIERÍA DE RIEGO Y DRENAJE EN EL USO SUSTENTABLE DEL AGUA EN LOS DISTRITOS DE RIEGO</td>
+                            <td>Marco Antonio González Vázquez</td>
+                        </tr>
+                        <tr>
+                            <td>22024</td>
+                            <td>MONITOREO DEL ESTADO HÍDRICO DEL SUELO Y AMBIENTAL PARA EL CULTIVO DE JITOMATE EN INVERNADERO</td>
+                            <td>Andrea García Monroy</td>
+                        </tr>
+                        <tr>
+                            <td>22025</td>
+                            <td>PRODUCTIVIDAD DEL AGUA EN CHILE 'JALAPEÑO' (Capsicum annuum) BAJO INVERNADERO EN CUATRO SUSTRATOS</td>
+                            <td>Guillermo Jesuita Pérez Marroquín</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </table>
             </div>
-            
-
         </section>
 
         <section class="edica-landing-section edica-landing-services" id="sesion-comercial">
@@ -509,8 +748,8 @@
                     presentarán nuevos productos, materiales, equipos y dispositivos para riego y drenaje, así como software comercial de interés para el sector hidroagrícola del país. 
                     Dirigido a: Empresas distribuidoras/constructoras y fabricantes relacionados con el riego y drenaje, funcionarios, representantes de asociaciones de riego y drenaje, 
                     profesionistas y estudiantes interesados en nuevos productos.<br></h4>
-                    <h3 class="blog-post-title">Informes:</h3>
-                    <h3><a class="post-category" href="mailto:contacto@riego.mx">contacto@riego.mx</a></h3> 
+                <h3 class="blog-post-title">Informes:</h3>
+                <h3><a class="post-category" href="mailto:contacto@riego.mx">contacto@riego.mx</a></h3>
             </div>
         </section>
 
@@ -571,7 +810,7 @@
                     </div>
                     <div class="col-md-3 landing-blog-post" data-aos="fade-left">
                         <img src="assets/images/oval4.jpg" alt="partner1" data-aos="flip-right">
-                        <h5 class="blog-post-title">M.C. Ernesto Sifuentes Ibarra </h5>
+                        <h5 class="blog-post-title">Dr. Ernesto Sifuentes Ibarra </h5>
                         <p>INIFAP</p>
                     </div>
                     <div class="col-md-3 landing-blog-post" data-aos="fade-left">
@@ -735,7 +974,7 @@
                     <h2 class="edica-landing-section-title">Lugar del evento</h2>
                     <div class="row">
                         <div class="col-sm-6 col-md-4 aside">
-                            <a class="lightbox" href="#sede" data-aos-delay="100">
+                            <a class="lightbox" href="#sede" data-aos-delay="200">
                                 <img src="assets/images/image02.jpg" alt="" data-aos="fade-left" >
                                 <img src="assets/images/image06.jpg" alt="" data-aos="fade-left" >
                                 <img src="assets/images/image01.jpg" alt="" data-aos="fade-left" >
@@ -743,7 +982,7 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="#sede" data-aos-delay="100">
+                            <a class="lightbox" href="#sede" data-aos-delay="200">
                                 <img src="assets/images/image05.jpg" alt="noche" data-aos="fade-up">
                                 <img src="assets/images/image03.jpg" alt="" data-aos="fade-right" > 
                                 <img src="assets/images/image10.jpg" alt="" data-aos="fade-right" >
@@ -752,7 +991,7 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="#sede" data-aos="fade-right" data-aos-delay="100">
+                            <a class="lightbox" href="#sede" data-aos="fade-right" data-aos-delay="200">
                                 <img src="assets/images/image11.jpg" alt="" data-aos="fade-left" >
                                 <img src="assets/images/image12.jpg" alt="" data-aos="fade-right" >
                                 <img src="assets/images/image07.jpg" alt="" data-aos="fade-right" >
@@ -768,6 +1007,17 @@
                 <h4 class="edica-landing-section-title" >Eventos Culturales</h4>
                 <h4 class="edica-landing-section-subtitle" data-aos="fade-up"> En el marco del congreso se celebrarán eventos culturales y 
                     técnicos de interés para los asistentes al congreso. <br></h4>
+            </div>
+        </section>
+
+        <section class="edica-landing-section edica-landing-services" id="programa">
+            <div class="container">
+                <h4 class="edica-landing-section-title" >Programa del Congreso</h4>
+                <h4 class="edica-landing-section-subtitle" data-aos="fade-up">Se presenta a continuación el programa de actividades del 
+                    Congreso <br></h4>
+                <div class="img-center">
+                    <img src="assets/images/Programa del congreso.jpg" data-aos="fade-right" data-aos-delay="500"alt="Programa del congreso">
+                </div>
             </div>
         </section>
 
