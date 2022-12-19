@@ -7541,7 +7541,8 @@ a.text-dark:hover, a.text-dark:focus {
     .edica-landing-section.edica-landing-services .landing-service-card .service-card-titleconfe {
       font-size: 22px;
       font-weight: 700;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      text-align: center; }
     .edica-landing-section.edica-landing-services .landing-service-card .service-card-description {
       font-size: 18px;
       line-height: 1.3; }
