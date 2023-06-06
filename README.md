@@ -1,5 +1,10 @@
 # Portal Comeii 2022
 
-Landing page para el evento de Comeii 2022 en Teziutlán Puebla. 
+Landing page para el evento de Comeii en Teziutlán Puebla en noviembre 2022.
 
-Diseñado con HTML, Saas y algunas librerías de animaciones en Javascript.
+Herramientas
+  - HTML
+  - SaaS
+  - Data-os
+
+Sitio web [aquí](https://www.riego.mx/congresos/comeii2022/)
