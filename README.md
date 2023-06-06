@@ -8,3 +8,6 @@ Herramientas
   - Data-os
 
 Sitio web [aquí](https://www.riego.mx/congresos/comeii2022/)
+
+Muestra:
+![Imagen de prueba](https://github.com/ghigoviu/Portal-comeii-2022/blob/main/assets/images/screenshot%20comeii.jpg)
